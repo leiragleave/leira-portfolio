@@ -365,6 +365,7 @@ figcaption {
 .navigation-item {
   padding-top: 9px;
   padding-bottom: 9px;
+  box-shadow: 1px 1px 3px 0 #000;
   opacity: 0.6;
   font-family: 'Changa One', Impact, sans-serif;
   font-size: 12px;
@@ -1043,6 +1044,28 @@ figcaption {
   font-family: Montserrat, sans-serif;
   font-size: 12px;
   text-align: center;
+}
+
+.button-2 {
+  background-color: transparent;
+  font-family: 'Changa One', Impact, sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-2:hover {
+  box-shadow: 1px 1px 3px 0 #f3b5a2;
+}
+
+.button-3 {
+  background-color: transparent;
+  font-family: 'Changa One', Impact, sans-serif;
+  color: #000;
+}
+
+.button-3:hover {
+  box-shadow: 1px 1px 3px 0 #f3b5a2;
 }
 
 @media (max-width: 991px) {
