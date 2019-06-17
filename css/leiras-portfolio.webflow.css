@@ -182,8 +182,9 @@ figcaption {
 .container {
   width: 100%;
   max-width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0px auto;
+  padding-top: 100px;
+  padding-bottom: 0px;
   border-radius: 0px;
 }
 
@@ -321,6 +322,7 @@ figcaption {
 }
 
 .paragraph-light.about-myself {
+  margin-top: 17px;
   margin-right: -355px;
   margin-left: -16px;
   padding: 17px 40px;
@@ -328,6 +330,7 @@ figcaption {
 }
 
 .section {
+  margin-top: -106px;
   margin-right: 30px;
   margin-left: 30px;
   font-family: Montserrat, sans-serif;
@@ -459,14 +462,17 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   margin-top: -3px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  margin-right: -55px;
+  margin-left: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -580,11 +586,13 @@ figcaption {
 }
 
 .work-experience-grid {
+  margin-top: 38px;
   margin-bottom: 140px;
-  grid-column-gap: 30px;
+  margin-left: -17px;
+  grid-column-gap: 40px;
   grid-row-gap: 30px;
   grid-template-areas: ". . . .";
-  -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
+  -ms-grid-columns: 1fr 40px 1fr 40px 1fr 40px 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
@@ -1144,6 +1152,8 @@ figcaption {
 }
 
 .paragraph {
+  margin-top: 53px;
+  padding-top: 0px;
   font-family: 'Baloo Tammudu', sans-serif;
   font-size: 35px;
 }
@@ -1154,7 +1164,12 @@ figcaption {
   text-align: center;
 }
 
-.button-2 {
+.button-5 {
+  position: fixed;
+  left: auto;
+  top: 12%;
+  right: 0%;
+  bottom: auto;
   margin-top: -54px;
   margin-right: 43px;
   padding-bottom: 0px;
@@ -1165,15 +1180,16 @@ figcaption {
   color: #000;
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 
-.button-2:hover {
+.button-5:hover {
   box-shadow: 1px 1px 3px 0 #f3b5a2;
 }
 
 .button-3 {
-  margin-top: -54px;
-  margin-right: 20px;
+  margin-top: -36px;
+  margin-right: 68px;
   margin-left: 0px;
   padding-bottom: 0px;
   border: 1px dashed #000;
@@ -1189,7 +1205,121 @@ figcaption {
 
 .body {
   border: 1px solid transparent;
+  background-color: #fff;
   font-family: Abel, sans-serif;
+}
+
+.image {
+  margin: 81px 0px -266px -28px;
+  padding-top: 0px;
+  padding-right: 92px;
+  padding-bottom: 0px;
+}
+
+.preloader1 {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 999999999;
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f3b5a2;
+  opacity: 1;
+}
+
+.text-block-2 {
+  font-size: 40px;
+}
+
+.preloader {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 9999999999;
+  display: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f3b5a2;
+}
+
+.section-2 {
+  display: block;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.button-4 {
+  position: fixed;
+  left: auto;
+  top: 5%;
+  right: 5%;
+  bottom: auto;
+  float: right;
+  border: 1px dashed #000;
+  background-color: transparent;
+  box-shadow: 3px 3px 6px 0 #f3b5a2;
+  font-family: 'Baloo Tammudu', sans-serif;
+  color: #000;
+  text-align: left;
+}
+
+.button-4:hover {
+  border: 1px dashed #000;
+  box-shadow: 2px 2px 4px 0 #f3b5a2;
+  opacity: 1;
+}
+
+.section-3 {
+  margin-top: 66px;
+}
+
+.div-block {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.text-block-3 {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.section-4 {
+  margin-top: 72px;
+}
+
+.button-6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: right;
+  background-color: transparent;
+  font-family: 'Baloo Tammudu', sans-serif;
+  color: #000;
+  font-size: 20px;
 }
 
 @media (max-width: 991px) {
@@ -1407,6 +1537,9 @@ figcaption {
     font-size: 36px;
     line-height: 54px;
   }
+  .image {
+    margin-left: -29px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1573,6 +1706,9 @@ figcaption {
   ._404-wrap {
     padding: 30px;
   }
+  .image {
+    margin-left: 23px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1672,6 +1808,9 @@ figcaption {
     font-size: 30px;
     line-height: 46px;
   }
+  .image {
+    margin-left: 40px;
+  }
 }
 
 #w-node-a852d0df4a32-d0df4a24 {
@@ -1733,50 +1872,6 @@ figcaption {
   }
 }
 
-#w-node-8f65c72d8fa5-66bdd50c {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 2;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-8f65c72d8fad-66bdd50c {
-  -ms-grid-column: 3;
-  grid-column-start: 3;
-  -ms-grid-column-span: 1;
-  grid-column-end: 4;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-8f65c72d8fb4-66bdd50c {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 2;
-  grid-row-start: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 3;
-}
-
-#w-node-8f65c72d8fbb-66bdd50c {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 2;
-  grid-column-end: 4;
-  -ms-grid-row: 2;
-  grid-row-start: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 3;
-}
-
 #w-node-8f65c72d8fc9-66bdd50c {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -1820,6 +1915,65 @@ figcaption {
     grid-column-end: 2;
     -ms-grid-row-span: 1;
     grid-row-end: 3;
+  }
+}
+
+#w-node-a852d0df4a32-d0df4a24 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-a852d0df4a36-d0df4a24 {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-a852d0df4a36-d0df4a24 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+  }
+}
+
+#w-node-a852d0df4a3a-d0df4a24 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-a852d0df4a3a-d0df4a24 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 3;
+    grid-row-start: 3;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 4;
   }
 }
 
