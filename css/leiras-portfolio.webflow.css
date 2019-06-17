@@ -227,9 +227,9 @@ figcaption {
 }
 
 .heading-jumbo {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: 'Changa One', Impact, sans-serif;
+  margin-top: 264px;
+  margin-bottom: 209px;
+  font-family: 'Baloo Tammudu', sans-serif;
   font-size: 64px;
   line-height: 80px;
   text-transform: none;
@@ -267,8 +267,15 @@ figcaption {
 }
 
 .paragraph-light {
+  display: block;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #3a3333;
   opacity: 0.6;
-  font-family: Exo, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #000;
   font-weight: 400;
 }
@@ -277,9 +284,53 @@ figcaption {
   margin-bottom: 5px;
 }
 
+.paragraph-light.cc-position-name.title1 {
+  border-style: none;
+}
+
+.paragraph-light.cc-position-name.title2 {
+  border-style: none;
+}
+
+.paragraph-light.cc-position-name.title3 {
+  border-style: none;
+}
+
+.paragraph-light.name1 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.paragraph-light.name2 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.paragraph-light.name4 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.paragraph-light.name3 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.paragraph-light.about-myself {
+  margin-right: -355px;
+  margin-left: -16px;
+  padding: 17px 40px;
+  box-shadow: 6px 6px 20px 0 #f3b5a2;
+}
+
 .section {
   margin-right: 30px;
   margin-left: 30px;
+  font-family: Montserrat, sans-serif;
 }
 
 .section.cc-contact {
@@ -407,6 +458,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: -3px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -422,20 +474,45 @@ figcaption {
 }
 
 .navigation {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: block;
+  height: 70px;
   padding: 30px 50px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: transparent;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  border: 1px none #000;
+  background-color: #fffefe;
+  color: transparent;
 }
 
 .logo-image {
+  position: fixed;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
   display: block;
+  margin: -12px 28px -9px -16px;
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: none;
+  box-shadow: 4px 4px 7px 0 #f3b5a2;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 .logo-image:hover {
@@ -450,11 +527,13 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: -20px;
+  margin-top: 43px;
+  margin-right: 38px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #fff;
 }
 
 .intro-wrap {
@@ -471,6 +550,7 @@ figcaption {
 
 .position-name-text {
   margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
   font-size: 20px;
   line-height: 34px;
   font-weight: 400;
@@ -584,6 +664,9 @@ figcaption {
 
 .project-name-link {
   margin-bottom: 5px;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
   font-family: 'Changa One', Impact, sans-serif;
   font-size: 20px;
   line-height: 34px;
@@ -597,6 +680,30 @@ figcaption {
 
 .project-name-link:active {
   opacity: 0.7;
+}
+
+.project-name-link.project1 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.project-name-link.project2 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.project-name-link.project4 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.project-name-link.project3 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
 }
 
 .text-field {
@@ -749,7 +856,8 @@ figcaption {
   -ms-flex-order: 0;
   order: 0;
   opacity: 0.6;
-  font-size: 14px;
+  font-family: 'Baloo Tammudu', sans-serif;
+  font-size: 16px;
   line-height: 20px;
   text-align: left;
   letter-spacing: 1px;
@@ -1015,7 +1123,7 @@ figcaption {
 }
 
 .heading {
-  font-family: 'Changa One', Impact, sans-serif;
+  font-family: 'Baloo Tammudu', sans-serif;
   font-size: 40px;
 }
 
@@ -1036,19 +1144,24 @@ figcaption {
 }
 
 .paragraph {
-  font-family: 'Changa One', Impact, sans-serif;
+  font-family: 'Baloo Tammudu', sans-serif;
   font-size: 35px;
 }
 
 .text-block {
   font-family: Montserrat, sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   text-align: center;
 }
 
 .button-2 {
+  margin-top: -54px;
+  margin-right: 43px;
+  padding-bottom: 0px;
+  border: 1px dashed #000;
   background-color: transparent;
-  font-family: 'Changa One', Impact, sans-serif;
+  box-shadow: 3px 3px 7px 0 #f3b5a2;
+  font-family: 'Baloo Tammudu', sans-serif;
   color: #000;
   font-size: 16px;
   font-weight: 400;
@@ -1059,13 +1172,24 @@ figcaption {
 }
 
 .button-3 {
+  margin-top: -54px;
+  margin-right: 20px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  border: 1px dashed #000;
   background-color: transparent;
-  font-family: 'Changa One', Impact, sans-serif;
+  box-shadow: 3px 3px 7px 0 #f3b5a2;
+  font-family: 'Baloo Tammudu', sans-serif;
   color: #000;
 }
 
 .button-3:hover {
   box-shadow: 1px 1px 3px 0 #f3b5a2;
+}
+
+.body {
+  border: 1px solid transparent;
+  font-family: Abel, sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -1075,6 +1199,13 @@ figcaption {
   .heading-jumbo {
     font-size: 56px;
     line-height: 70px;
+  }
+  .paragraph-light.about-myself {
+    display: block;
+    margin-right: 0px;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .section.cc-contact {
     padding-right: 0px;
@@ -1094,6 +1225,9 @@ figcaption {
   }
   .menu-icon {
     display: block;
+    margin-top: -30px;
+    margin-right: 63px;
+    margin-bottom: -7px;
   }
   .navigation-item {
     padding: 15px 30px;
@@ -1112,6 +1246,10 @@ figcaption {
   }
   .navigation {
     padding: 25px 30px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .menu-button {
     padding: 0px;
@@ -1119,10 +1257,22 @@ figcaption {
   .menu-button.w--open {
     background-color: transparent;
   }
+  .logo-image {
+    margin-top: 2px;
+    margin-right: 15px;
+    margin-left: 0px;
+    padding-left: 8px;
+  }
   .navigation-wrap {
     margin-right: 0px;
   }
   .work-experience-grid {
+    margin-top: 6px;
+    padding: 27px 0px 0px 60px;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
     grid-template-areas: ". ." ". .";
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -1298,6 +1448,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1667,30 +1818,6 @@ figcaption {
     grid-row-start: 2;
     -ms-grid-column-span: 1;
     grid-column-end: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-  }
-}
-
-#w-node-8f65c72d8fe1-66bdd50c {
-  -ms-grid-column: 4;
-  grid-column-start: 4;
-  -ms-grid-column-span: 1;
-  grid-column-end: 5;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-@media screen and (max-width: 991px) {
-  #w-node-8f65c72d8fe1-66bdd50c {
-    -ms-grid-column: 2;
-    grid-column-start: 2;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-column-span: 1;
-    grid-column-end: 3;
     -ms-grid-row-span: 1;
     grid-row-end: 3;
   }
