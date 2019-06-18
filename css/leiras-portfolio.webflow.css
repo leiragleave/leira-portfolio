@@ -1239,7 +1239,7 @@ figcaption {
 }
 
 .image {
-  margin: -40px 0px -266px -2px;
+  margin: -27px 0px -266px -16px;
   padding-top: 0px;
   padding-right: 92px;
   padding-bottom: 0px;
@@ -1645,6 +1645,53 @@ figcaption {
   text-transform: uppercase;
 }
 
+.button7.w--current {
+  position: fixed;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: inline-block;
+  margin-top: 59px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-color: transparent;
+  color: #000;
+}
+
+.link-block {
+  position: fixed;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: 76px;
+  margin-right: 7px;
+}
+
+.link-block:hover {
+  -webkit-filter: grayscale(65%);
+  filter: grayscale(65%);
+}
+
+.link-block.w--current {
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: 75px;
+  margin-right: 8px;
+}
+
+.link-block.w--current:hover {
+  border: 1px none #000;
+  opacity: 1;
+  -webkit-filter: grayscale(65%);
+  filter: grayscale(65%);
+}
+
 @media (max-width: 991px) {
   .styleguide-block {
     text-align: center;
@@ -1698,6 +1745,7 @@ figcaption {
     background-color: #fff;
   }
   .navigation {
+    margin-right: 17px;
     margin-left: 0px;
     padding: 25px 30px;
     -webkit-box-align: center;
@@ -1871,14 +1919,36 @@ figcaption {
     font-size: 36px;
     line-height: 54px;
   }
+  .button-3 {
+    opacity: 0.3;
+  }
+  .button-3:hover {
+    opacity: 1;
+  }
   .image {
     margin-left: -29px;
+  }
+  .button-6 {
+    opacity: 0.3;
+  }
+  .button-6:hover {
+    opacity: 1;
+  }
+  .button-6.w--current {
+    opacity: 0.3;
+  }
+  .button-6.w--current:hover {
+    opacity: 1;
   }
   .bold-text-2 {
     font-family: 'Baloo Tammudu', sans-serif;
   }
   .bold-text3 {
     font-family: 'Baloo Tammudu', sans-serif;
+  }
+  .image-7 {
+    margin-top: 0px;
+    margin-right: -5px;
   }
 }
 
@@ -2062,14 +2132,32 @@ figcaption {
   ._404-wrap {
     padding: 30px;
   }
+  .button-3 {
+    opacity: 0.3;
+  }
+  .button-3:hover {
+    opacity: 1;
+  }
   .image {
     margin-left: 23px;
+  }
+  .button-6 {
+    opacity: 0.3;
+  }
+  .button-6.w--current {
+    opacity: 0.3;
+  }
+  .button-6.w--current:hover {
+    opacity: 1;
   }
   .paragraph-3 {
     font-family: 'Baloo Tammudu', sans-serif;
   }
   .bold-text3 {
     font-family: 'Baloo Tammudu', sans-serif;
+  }
+  .image-7 {
+    margin-top: -3px;
   }
 }
 
@@ -2087,6 +2175,8 @@ figcaption {
     padding-left: 22px;
   }
   .navigation {
+    margin-top: -122px;
+    margin-right: 3px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -2224,9 +2314,25 @@ figcaption {
   }
   .button-3 {
     margin-right: -87px;
+    opacity: 0.3;
+  }
+  .button-3:hover {
+    opacity: 1;
   }
   .image {
     margin-left: 40px;
+  }
+  .button-6 {
+    opacity: 0.3;
+  }
+  .button-6:hover {
+    opacity: 1;
+  }
+  .button-6.w--current {
+    opacity: 0.3;
+  }
+  .button-6.w--current:hover {
+    opacity: 1;
   }
   .image-4 {
     margin-left: 23px;
@@ -2260,6 +2366,12 @@ figcaption {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+  }
+  .link-block {
+    margin-top: 22px;
+  }
+  .link-block.w--current {
+    margin-top: 23px;
   }
 }
 
