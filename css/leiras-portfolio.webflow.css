@@ -2435,10 +2435,10 @@ figcaption {
     grid-template-rows: auto auto;
   }
   .image-8 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .image-9 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 }
 
@@ -2749,6 +2749,17 @@ figcaption {
   align-self: center;
   -ms-grid-column-align: center;
   justify-self: center;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-ef69a61460e4-028690d8 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
 }
 
 #w-node-4fb1d14ddaec-028690d8 {
