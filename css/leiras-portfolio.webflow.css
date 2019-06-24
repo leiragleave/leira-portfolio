@@ -1752,6 +1752,17 @@ figcaption {
   grid-template-rows: auto;
 }
 
+.grid-7 {
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.paragraph-11 {
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .styleguide-block {
     text-align: center;
@@ -2492,6 +2503,12 @@ figcaption {
     border: 1px none #000;
     text-align: center;
   }
+  .grid-7 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
 }
 
 #w-node-a852d0df4a32-d0df4a24 {
@@ -2774,6 +2791,42 @@ figcaption {
     -ms-grid-row-span: 1;
     grid-row-end: 4;
   }
+}
+
+#w-node-5a125e452df4-028690d8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-5f789a3723a1-028690d8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-4b4eb7165ae2-028690d8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-85b079b36340-028690d8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 #w-node-f96dc16b54d2-028690d8 {
