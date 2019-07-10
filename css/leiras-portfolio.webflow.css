@@ -246,6 +246,7 @@ figcaption {
 
 .paragraph-tiny.cc-paragraph-tiny-light {
   opacity: 0.7;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .label {
@@ -290,14 +291,17 @@ figcaption {
 
 .paragraph-light.cc-position-name.title1 {
   border-style: none;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .paragraph-light.cc-position-name.title2 {
   border-style: none;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .paragraph-light.cc-position-name.title3 {
   border-style: none;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .paragraph-light.name1 {
@@ -330,6 +334,7 @@ figcaption {
   margin-left: -16px;
   padding: 17px 40px;
   box-shadow: 6px 6px 20px 0 #f3b5a2;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .section {
@@ -560,7 +565,7 @@ figcaption {
 
 .position-name-text {
   margin-bottom: 10px;
-  font-family: Montserrat, sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 20px;
   line-height: 34px;
   font-weight: 400;
@@ -1176,7 +1181,7 @@ figcaption {
 }
 
 .text-block {
-  opacity: 0.75;
+  opacity: 0.7;
   font-family: 'Baloo Tammudu', sans-serif;
   font-size: 11px;
   text-align: center;
