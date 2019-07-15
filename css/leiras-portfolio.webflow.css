@@ -3919,7 +3919,7 @@ figcaption {
   .navigation {
     position: absolute;
     margin-right: 17px;
-    margin-left: -31px;
+    margin-left: -44px;
     padding: 25px 30px;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -4158,7 +4158,7 @@ figcaption {
   }
   .image-13 {
     width: 400px;
-    height: 250px;
+    height: 260px;
   }
   .paragraph-13 {
     padding-right: 10px;
@@ -4299,7 +4299,8 @@ figcaption {
   .heading-jumbo {
     margin-top: 10px;
     margin-left: 10px;
-    padding-right: 388px;
+    padding-right: 288px;
+    padding-left: 93px;
     font-size: 25px;
     line-height: 64px;
   }
@@ -4699,7 +4700,7 @@ figcaption {
     margin-bottom: 140px;
     margin-left: 0px;
     padding-right: 238px;
-    padding-left: 192px;
+    padding-left: 224px;
     font-size: 25px;
     line-height: 48px;
     text-align: left;
@@ -4711,7 +4712,7 @@ figcaption {
   .navigation {
     margin-top: 64px;
     margin-right: 3px;
-    margin-left: -38px;
+    margin-left: -49px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -5062,12 +5063,12 @@ figcaption {
     margin-right: 228px;
     margin-left: 0px;
     padding-top: 0px;
-    padding-right: 60px;
+    padding-right: 70px;
     font-size: 20px;
   }
   .heading-11 {
     margin-top: 0px;
-    padding: 0px 264px 0px 190px;
+    padding: 0px 286px 0px 218px;
     font-size: 14px;
   }
   .heading-12 {
