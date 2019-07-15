@@ -509,7 +509,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   height: 70px;
-  margin-top: 95px;
+  margin-top: 90px;
   padding: 0px 0px 0px 7px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -524,6 +524,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  align-self: center;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -1243,11 +1244,15 @@ figcaption {
 
 .button-3 {
   position: relative;
-  margin-top: 74px;
-  margin-right: -112px;
+  margin-top: 65px;
+  margin-right: -92px;
   margin-left: 0px;
-  padding: 0px;
+  padding: 10px 20px;
   float: right;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   border: 1px none #000;
   background-color: transparent;
   -webkit-transform: rotate(-90deg);
@@ -1261,6 +1266,15 @@ figcaption {
 
 .button-3:hover {
   text-decoration: line-through;
+}
+
+.button-3.w--current {
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .body {
@@ -2919,6 +2933,17 @@ figcaption {
   height: 320px;
   margin-right: 13px;
   margin-left: 0px;
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+.image-13:hover {
+  -webkit-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+  -webkit-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
 }
 
 .container-7 {
@@ -4250,6 +4275,8 @@ figcaption {
   }
   .column-5-copy-copy {
     left: 7px;
+    padding-right: 37px;
+    padding-left: 0px;
   }
   .container-6-copy {
     padding-left: 51px;
