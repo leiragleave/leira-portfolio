@@ -5109,8 +5109,8 @@ figcaption {
     width: 150px;
     height: 160px;
     margin-top: 23px;
-    margin-right: -11px;
-    margin-left: 289px;
+    margin-right: 0px;
+    margin-left: 305px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
@@ -5247,7 +5247,7 @@ figcaption {
     display: block;
     margin-top: -209px;
     padding-top: 0px;
-    padding-left: 231px;
+    padding-left: 232px;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
@@ -5257,7 +5257,7 @@ figcaption {
     grid-template-rows: auto auto;
   }
   .container-11 {
-    padding-right: 250px;
+    padding-right: 240px;
     padding-left: 0px;
   }
 }
