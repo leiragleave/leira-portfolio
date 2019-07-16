@@ -2933,6 +2933,8 @@ figcaption {
   height: 320px;
   margin-right: 13px;
   margin-left: 0px;
+  border-radius: 5px;
+  box-shadow: 1px 0 6px 0 #000;
   -webkit-transform-origin: 0% 0%;
   -ms-transform-origin: 0% 0%;
   transform-origin: 0% 0%;
@@ -3863,6 +3865,14 @@ figcaption {
   border-left: 1px none #000;
 }
 
+.container-11 {
+  padding-left: 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
 @media (max-width: 991px) {
   .styleguide-block {
     text-align: center;
@@ -4688,6 +4698,10 @@ figcaption {
     margin-top: -652px;
     padding-left: 386px;
   }
+  .container-11 {
+    padding-right: 156px;
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -5096,7 +5110,7 @@ figcaption {
     height: 160px;
     margin-top: 23px;
     margin-right: -11px;
-    margin-left: 359px;
+    margin-left: 289px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
@@ -5233,7 +5247,7 @@ figcaption {
     display: block;
     margin-top: -209px;
     padding-top: 0px;
-    padding-left: 220px;
+    padding-left: 231px;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
@@ -5241,6 +5255,10 @@ figcaption {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
+  }
+  .container-11 {
+    padding-right: 250px;
+    padding-left: 0px;
   }
 }
 
