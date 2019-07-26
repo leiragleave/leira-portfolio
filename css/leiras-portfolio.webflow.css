@@ -509,7 +509,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   height: 70px;
-  margin-top: 90px;
+  margin-top: 108px;
   padding: 0px 0px 0px 7px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1244,10 +1244,10 @@ figcaption {
 
 .button-3 {
   position: relative;
-  margin-top: 65px;
+  margin-top: 53px;
   margin-right: -92px;
   margin-left: 0px;
-  padding: 10px 20px;
+  padding: 10px 20px 20px;
   float: right;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -1271,6 +1271,7 @@ figcaption {
 .button-3.w--current {
   margin-top: 45px;
   padding-right: 0px;
+  padding-bottom: 20px;
   padding-left: 0px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
