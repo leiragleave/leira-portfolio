@@ -3671,7 +3671,7 @@ figcaption {
   height: 700px;
   margin-top: 0px;
   margin-left: 57px;
-  border-left: 1px solid #000;
+  border-left: 1px none #000;
 }
 
 .div-block-23-copy {
@@ -3705,6 +3705,10 @@ figcaption {
   grid-template-columns: 2.25fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.columns-7 {
+  border-left: 1px solid #000;
 }
 
 .image-21 {
